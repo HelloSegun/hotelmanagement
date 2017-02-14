@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="11" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Component Tests" duration-ms="63882" started-at="2017-02-14T07:04:05Z" finished-at="2017-02-14T07:05:09Z">
+    <groups>
+    </groups>
+    <test name="Login and Create an Entry" duration-ms="15792" started-at="2017-02-14T07:04:05Z" finished-at="2017-02-14T07:04:20Z">
+      <class name="com.segun.auto.testsuites.CreateAnEntry">
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String)[pri:0, instance:com.segun.auto.testsuites.CreateAnEntry@3b81a1bc]" name="beforeTest" is-config="true" duration-ms="5985" started-at="2017-02-14T07:04:05Z" finished-at="2017-02-14T07:04:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://192.168.99.100:3003]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="loginToHotelManagement(java.lang.String, java.lang.String)[pri:0, instance:com.segun.auto.testsuites.CreateAnEntry@3b81a1bc]" name="loginToHotelManagement" duration-ms="1405" started-at="2017-02-14T07:04:11Z" finished-at="2017-02-14T07:04:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToHotelManagement -->
+        <test-method status="PASS" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:com.segun.auto.testsuites.CreateAnEntry@3b81a1bc]" name="takeScreenshot" is-config="true" duration-ms="1" started-at="2017-02-14T07:04:12Z" finished-at="2017-02-14T07:04:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginToHotelManagement status=SUCCESS method=CreateAnEntry.loginToHotelManagement(java.lang.String, java.lang.String)[pri:0, instance:com.segun.auto.testsuites.CreateAnEntry@3b81a1bc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method status="PASS" signature="createAnEntry()[pri:1, instance:com.segun.auto.testsuites.CreateAnEntry@3b81a1bc]" name="createAnEntry" duration-ms="1859" started-at="2017-02-14T07:04:12Z" finished-at="2017-02-14T07:04:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAnEntry -->
+        <test-method status="PASS" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:com.segun.auto.testsuites.CreateAnEntry@3b81a1bc]" name="takeScreenshot" is-config="true" duration-ms="0" started-at="2017-02-14T07:04:14Z" finished-at="2017-02-14T07:04:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createAnEntry status=SUCCESS method=CreateAnEntry.createAnEntry()[pri:1, instance:com.segun.auto.testsuites.CreateAnEntry@3b81a1bc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method status="PASS" signature="confirmCreatedEntryPresent()[pri:2, instance:com.segun.auto.testsuites.CreateAnEntry@3b81a1bc]" name="confirmCreatedEntryPresent" duration-ms="5111" started-at="2017-02-14T07:04:14Z" finished-at="2017-02-14T07:04:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmCreatedEntryPresent -->
+        <test-method status="PASS" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:com.segun.auto.testsuites.CreateAnEntry@3b81a1bc]" name="takeScreenshot" is-config="true" duration-ms="0" started-at="2017-02-14T07:04:19Z" finished-at="2017-02-14T07:04:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=confirmCreatedEntryPresent status=SUCCESS method=CreateAnEntry.confirmCreatedEntryPresent()[pri:2, instance:com.segun.auto.testsuites.CreateAnEntry@3b81a1bc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method status="PASS" signature="loggingOutOfHotelManagement()[pri:3, instance:com.segun.auto.testsuites.CreateAnEntry@3b81a1bc]" name="loggingOutOfHotelManagement" duration-ms="409" started-at="2017-02-14T07:04:19Z" finished-at="2017-02-14T07:04:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loggingOutOfHotelManagement -->
+        <test-method status="PASS" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:com.segun.auto.testsuites.CreateAnEntry@3b81a1bc]" name="takeScreenshot" is-config="true" duration-ms="0" started-at="2017-02-14T07:04:20Z" finished-at="2017-02-14T07:04:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loggingOutOfHotelManagement status=SUCCESS method=CreateAnEntry.loggingOutOfHotelManagement()[pri:3, instance:com.segun.auto.testsuites.CreateAnEntry@3b81a1bc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.segun.auto.testsuites.CreateAnEntry@3b81a1bc]" name="afterTest" is-config="true" duration-ms="970" started-at="2017-02-14T07:04:20Z" finished-at="2017-02-14T07:04:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.segun.auto.testsuites.CreateAnEntry -->
+    </test> <!-- Login and Create an Entry -->
+    <test name="Login and Delete an Entry" duration-ms="15093" started-at="2017-02-14T07:04:21Z" finished-at="2017-02-14T07:04:36Z">
+      <class name="com.segun.auto.testsuites.DeleteAnEntry">
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String)[pri:0, instance:com.segun.auto.testsuites.DeleteAnEntry@90f6bfd]" name="beforeTest" is-config="true" duration-ms="5088" started-at="2017-02-14T07:04:21Z" finished-at="2017-02-14T07:04:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://192.168.99.100:3003]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="loginToHotelManagement(java.lang.String, java.lang.String)[pri:0, instance:com.segun.auto.testsuites.DeleteAnEntry@90f6bfd]" name="loginToHotelManagement" duration-ms="1261" started-at="2017-02-14T07:04:26Z" finished-at="2017-02-14T07:04:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToHotelManagement -->
+        <test-method status="PASS" signature="deleteAnEntry()[pri:1, instance:com.segun.auto.testsuites.DeleteAnEntry@90f6bfd]" name="deleteAnEntry" duration-ms="1355" started-at="2017-02-14T07:04:27Z" finished-at="2017-02-14T07:04:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAnEntry -->
+        <test-method status="PASS" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:com.segun.auto.testsuites.DeleteAnEntry@90f6bfd]" name="takeScreenshot" is-config="true" duration-ms="0" started-at="2017-02-14T07:04:27Z" finished-at="2017-02-14T07:04:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginToHotelManagement status=SUCCESS method=DeleteAnEntry.loginToHotelManagement(java.lang.String, java.lang.String)[pri:0, instance:com.segun.auto.testsuites.DeleteAnEntry@90f6bfd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method status="PASS" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:com.segun.auto.testsuites.DeleteAnEntry@90f6bfd]" name="takeScreenshot" is-config="true" duration-ms="1" started-at="2017-02-14T07:04:28Z" finished-at="2017-02-14T07:04:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=deleteAnEntry status=SUCCESS method=DeleteAnEntry.deleteAnEntry()[pri:1, instance:com.segun.auto.testsuites.DeleteAnEntry@90f6bfd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method status="FAIL" signature="confirmDeletedEntryNotPresent()[pri:2, instance:com.segun.auto.testsuites.DeleteAnEntry@90f6bfd]" name="confirmDeletedEntryNotPresent" duration-ms="5054" started-at="2017-02-14T07:04:28Z" finished-at="2017-02-14T07:04:33Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at com.segun.auto.testsuites.DeleteAnEntry.confirmDeletedEntryNotPresent(DeleteAnEntry.java:129)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmDeletedEntryNotPresent -->
+        <test-method status="PASS" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:com.segun.auto.testsuites.DeleteAnEntry@90f6bfd]" name="takeScreenshot" is-config="true" duration-ms="354" started-at="2017-02-14T07:04:33Z" finished-at="2017-02-14T07:04:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=confirmDeletedEntryNotPresent status=FAILURE method=DeleteAnEntry.confirmDeletedEntryNotPresent()[pri:2, instance:com.segun.auto.testsuites.DeleteAnEntry@90f6bfd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method status="PASS" signature="loggingOutOfHotelManagement()[pri:3, instance:com.segun.auto.testsuites.DeleteAnEntry@90f6bfd]" name="loggingOutOfHotelManagement" duration-ms="603" started-at="2017-02-14T07:04:34Z" finished-at="2017-02-14T07:04:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loggingOutOfHotelManagement -->
+        <test-method status="PASS" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:com.segun.auto.testsuites.DeleteAnEntry@90f6bfd]" name="takeScreenshot" is-config="true" duration-ms="0" started-at="2017-02-14T07:04:34Z" finished-at="2017-02-14T07:04:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loggingOutOfHotelManagement status=SUCCESS method=DeleteAnEntry.loggingOutOfHotelManagement()[pri:3, instance:com.segun.auto.testsuites.DeleteAnEntry@90f6bfd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.segun.auto.testsuites.DeleteAnEntry@90f6bfd]" name="afterTest" is-config="true" duration-ms="1364" started-at="2017-02-14T07:04:34Z" finished-at="2017-02-14T07:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.segun.auto.testsuites.DeleteAnEntry -->
+    </test> <!-- Login and Delete an Entry -->
+    <test name="Login and Create Multiple Entries" duration-ms="32946" started-at="2017-02-14T07:04:36Z" finished-at="2017-02-14T07:05:09Z">
+      <class name="com.segun.auto.testsuites.CreateMultipleEntries">
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String)[pri:0, instance:com.segun.auto.testsuites.CreateMultipleEntries@2d3fcdbd]" name="beforeTest" is-config="true" duration-ms="4891" started-at="2017-02-14T07:04:36Z" finished-at="2017-02-14T07:04:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://192.168.99.100:3003]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="loginToHotelManagement(java.lang.String, java.lang.String)[pri:0, instance:com.segun.auto.testsuites.CreateMultipleEntries@2d3fcdbd]" name="loginToHotelManagement" duration-ms="1226" started-at="2017-02-14T07:04:41Z" finished-at="2017-02-14T07:04:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToHotelManagement -->
+        <test-method status="PASS" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:com.segun.auto.testsuites.CreateMultipleEntries@2d3fcdbd]" name="takeScreenshot" is-config="true" duration-ms="3" started-at="2017-02-14T07:04:42Z" finished-at="2017-02-14T07:04:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginToHotelManagement status=SUCCESS method=CreateMultipleEntries.loginToHotelManagement(java.lang.String, java.lang.String)[pri:0, instance:com.segun.auto.testsuites.CreateMultipleEntries@2d3fcdbd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method status="PASS" signature="createMultipleEntry()[pri:1, instance:com.segun.auto.testsuites.CreateMultipleEntries@2d3fcdbd]" name="createMultipleEntry" duration-ms="25438" started-at="2017-02-14T07:04:42Z" finished-at="2017-02-14T07:05:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createMultipleEntry -->
+        <test-method status="PASS" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:com.segun.auto.testsuites.CreateMultipleEntries@2d3fcdbd]" name="takeScreenshot" is-config="true" duration-ms="0" started-at="2017-02-14T07:05:07Z" finished-at="2017-02-14T07:05:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createMultipleEntry status=SUCCESS method=CreateMultipleEntries.createMultipleEntry()[pri:1, instance:com.segun.auto.testsuites.CreateMultipleEntries@2d3fcdbd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method status="PASS" signature="loggingOutOfHotelManagement()[pri:2, instance:com.segun.auto.testsuites.CreateMultipleEntries@2d3fcdbd]" name="loggingOutOfHotelManagement" duration-ms="521" started-at="2017-02-14T07:05:07Z" finished-at="2017-02-14T07:05:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loggingOutOfHotelManagement -->
+        <test-method status="PASS" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:com.segun.auto.testsuites.CreateMultipleEntries@2d3fcdbd]" name="takeScreenshot" is-config="true" duration-ms="0" started-at="2017-02-14T07:05:08Z" finished-at="2017-02-14T07:05:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loggingOutOfHotelManagement status=SUCCESS method=CreateMultipleEntries.loggingOutOfHotelManagement()[pri:2, instance:com.segun.auto.testsuites.CreateMultipleEntries@2d3fcdbd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.segun.auto.testsuites.CreateMultipleEntries@2d3fcdbd]" name="afterTest" is-config="true" duration-ms="864" started-at="2017-02-14T07:05:08Z" finished-at="2017-02-14T07:05:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.segun.auto.testsuites.CreateMultipleEntries -->
+      <class name="com.segun.auto.testsuites.BeforeAfterSuiteTestConfig">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.segun.auto.testsuites.BeforeAfterSuiteTestConfig@3a03464]" name="beforeSuite" is-config="true" duration-ms="30" started-at="2017-02-14T07:04:05Z" finished-at="2017-02-14T07:04:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.segun.auto.testsuites.BeforeAfterSuiteTestConfig@3a03464]" name="afterSuite" is-config="true" duration-ms="0" started-at="2017-02-14T07:05:09Z" finished-at="2017-02-14T07:05:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.segun.auto.testsuites.BeforeAfterSuiteTestConfig -->
+    </test> <!-- Login and Create Multiple Entries -->
+  </suite> <!-- Component Tests -->
+</testng-results>

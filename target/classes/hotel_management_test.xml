@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite guice-stage="DEVELOPMENT" name="Component Tests">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="url" value="http://localhost:3003"/>
+  <parameter name="sUsername" value="admin"/>
+  <parameter name="sPassword" value="password"/>
+
+
+  <test verbose="2" name="Login and Create an Entry" preserve-order="true">
+ 	<classes>
+ 		<class name="com.segun.auto.testsuites.BeforeAfterSuiteTestConfig"/>
+ 		<class name="com.segun.auto.testsuites.CreateAnEntry"/>
+ 	</classes>
+  </test>
+  <test verbose="2" name="Login and Delete an Entry" preserve-order="true">
+ 	<classes>
+ 		<class name="com.segun.auto.testsuites.BeforeAfterSuiteTestConfig"/>
+ 		<class name="com.segun.auto.testsuites.DeleteAnEntry"/>
+ 	</classes>
+  </test>
+
+  <test verbose="2" name="Login and Create Multiple Entries" preserve-order="true">
+ 	<classes>
+ 		<class name="com.segun.auto.testsuites.BeforeAfterSuiteTestConfig"/>
+ 		<class name="com.segun.auto.testsuites.CreateMultipleEntries"/>
+ 	</classes>
+  </test>
+ 
+</suite>

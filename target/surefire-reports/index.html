@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Component_Tests">
+              <span class="suite-name border-failed">Component Tests</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Component_Tests">
+                    <span>C:\Users\Segun\workspace\auto-test\src\main\resources\hotel_management_test.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Component_Tests">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Component_Tests">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Component_Tests">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Component_Tests">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Component_Tests">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Component_Tests">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">11 methods, 1 failed,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Component_Tests" class="hide-methods failed suite-Component_Tests"> (hide)</a> <!-- hide-methods failed suite-Component_Tests -->
+                      <a href="#" panel-name="suite-Component_Tests" class="show-methods failed suite-Component_Tests"> (show)</a> <!-- show-methods failed suite-Component_Tests -->
+                    </span>
+                    <div class="method-list-content failed suite-Component_Tests">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Component_Tests" title="com.segun.auto.testsuites.DeleteAnEntry" hash-for-method="confirmDeletedEntryNotPresent">confirmDeletedEntryNotPresent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Component_Tests -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Component_Tests" class="hide-methods passed suite-Component_Tests"> (hide)</a> <!-- hide-methods passed suite-Component_Tests -->
+                      <a href="#" panel-name="suite-Component_Tests" class="show-methods passed suite-Component_Tests"> (show)</a> <!-- show-methods passed suite-Component_Tests -->
+                    </span>
+                    <div class="method-list-content passed suite-Component_Tests">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Component_Tests" title="com.segun.auto.testsuites.CreateAnEntry" hash-for-method="confirmCreatedEntryPresent">confirmCreatedEntryPresent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Component_Tests" title="com.segun.auto.testsuites.CreateAnEntry" hash-for-method="createAnEntry">createAnEntry</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Component_Tests" title="com.segun.auto.testsuites.CreateMultipleEntries" hash-for-method="createMultipleEntry">createMultipleEntry</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Component_Tests" title="com.segun.auto.testsuites.DeleteAnEntry" hash-for-method="deleteAnEntry">deleteAnEntry</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Component_Tests" title="com.segun.auto.testsuites.CreateAnEntry" hash-for-method="loggingOutOfHotelManagement">loggingOutOfHotelManagement</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Component_Tests" title="com.segun.auto.testsuites.DeleteAnEntry" hash-for-method="loggingOutOfHotelManagement">loggingOutOfHotelManagement</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Component_Tests" title="com.segun.auto.testsuites.CreateMultipleEntries" hash-for-method="loggingOutOfHotelManagement">loggingOutOfHotelManagement</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Component_Tests" title="com.segun.auto.testsuites.CreateAnEntry" hash-for-method="loginToHotelManagement(admin, password)">loginToHotelManagement(admin, password)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Component_Tests" title="com.segun.auto.testsuites.DeleteAnEntry" hash-for-method="loginToHotelManagement(admin, password)">loginToHotelManagement(admin, password)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Component_Tests" title="com.segun.auto.testsuites.CreateMultipleEntries" hash-for-method="loginToHotelManagement(admin, password)">loginToHotelManagement(admin, password)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Component_Tests -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Component_Tests" class="panel Component_Tests">
+          <div class="suite-Component_Tests-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.segun.auto.testsuites.DeleteAnEntry</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="confirmDeletedEntryNotPresent">
+                  </a> <!-- confirmDeletedEntryNotPresent -->
+                  <span class="method-name">confirmDeletedEntryNotPresent</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at com.segun.auto.testsuites.DeleteAnEntry.confirmDeletedEntryNotPresent(DeleteAnEntry.java:129)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Component_Tests-class-failed -->
+          <div class="suite-Component_Tests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.segun.auto.testsuites.CreateMultipleEntries</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createMultipleEntry">
+                  </a> <!-- createMultipleEntry -->
+                  <span class="method-name">createMultipleEntry</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loggingOutOfHotelManagement">
+                  </a> <!-- loggingOutOfHotelManagement -->
+                  <span class="method-name">loggingOutOfHotelManagement</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginToHotelManagement(admin, password)">
+                  </a> <!-- loginToHotelManagement(admin, password) -->
+                  <span class="method-name">loginToHotelManagement</span>
+                  <span class="parameters">(admin, password)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Component_Tests-class-passed -->
+          <div class="suite-Component_Tests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.segun.auto.testsuites.CreateAnEntry</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="confirmCreatedEntryPresent">
+                  </a> <!-- confirmCreatedEntryPresent -->
+                  <span class="method-name">confirmCreatedEntryPresent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createAnEntry">
+                  </a> <!-- createAnEntry -->
+                  <span class="method-name">createAnEntry</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loggingOutOfHotelManagement">
+                  </a> <!-- loggingOutOfHotelManagement -->
+                  <span class="method-name">loggingOutOfHotelManagement</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginToHotelManagement(admin, password)">
+                  </a> <!-- loginToHotelManagement(admin, password) -->
+                  <span class="method-name">loginToHotelManagement</span>
+                  <span class="parameters">(admin, password)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Component_Tests-class-passed -->
+          <div class="suite-Component_Tests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.segun.auto.testsuites.DeleteAnEntry</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteAnEntry">
+                  </a> <!-- deleteAnEntry -->
+                  <span class="method-name">deleteAnEntry</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loggingOutOfHotelManagement">
+                  </a> <!-- loggingOutOfHotelManagement -->
+                  <span class="method-name">loggingOutOfHotelManagement</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginToHotelManagement(admin, password)">
+                  </a> <!-- loginToHotelManagement(admin, password) -->
+                  <span class="method-name">loginToHotelManagement</span>
+                  <span class="parameters">(admin, password)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Component_Tests-class-passed -->
+        </div> <!-- panel Component_Tests -->
+        <div panel-name="test-xml-Component_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Segun\workspace\auto-test\src\main\resources\hotel_management_test.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Component Tests&quot;&gt;
+  &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+  &lt;parameter name=&quot;sUsername&quot; value=&quot;admin&quot;/&gt;
+  &lt;parameter name=&quot;url&quot; value=&quot;http://192.168.99.100:3003&quot;/&gt;
+  &lt;parameter name=&quot;sPassword&quot; value=&quot;password&quot;/&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;Login and Create an Entry&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.segun.auto.testsuites.BeforeAfterSuiteTestConfig&quot;/&gt;
+      &lt;class name=&quot;com.segun.auto.testsuites.CreateAnEntry&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login and Create an Entry --&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;Login and Delete an Entry&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.segun.auto.testsuites.BeforeAfterSuiteTestConfig&quot;/&gt;
+      &lt;class name=&quot;com.segun.auto.testsuites.DeleteAnEntry&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login and Delete an Entry --&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;Login and Create Multiple Entries&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.segun.auto.testsuites.BeforeAfterSuiteTestConfig&quot;/&gt;
+      &lt;class name=&quot;com.segun.auto.testsuites.CreateMultipleEntries&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login and Create Multiple Entries --&gt;
+&lt;/suite&gt; &lt;!-- Component Tests --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Component_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Component Tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Login and Create an Entry (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Login and Delete an Entry (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Login and Create Multiple Entries (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Component_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Component Tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Component_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Component Tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Component_Tests');
+function tableData_Component_Tests() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(11);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'createMultipleEntry')
+data.setCell(0, 2, 'com.segun.auto.testsuites.CreateMultipleEntries')
+data.setCell(0, 3, 25438);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'confirmCreatedEntryPresent')
+data.setCell(1, 2, 'com.segun.auto.testsuites.CreateAnEntry')
+data.setCell(1, 3, 5111);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'confirmDeletedEntryNotPresent')
+data.setCell(2, 2, 'com.segun.auto.testsuites.DeleteAnEntry')
+data.setCell(2, 3, 5054);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'createAnEntry')
+data.setCell(3, 2, 'com.segun.auto.testsuites.CreateAnEntry')
+data.setCell(3, 3, 1859);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'loginToHotelManagement')
+data.setCell(4, 2, 'com.segun.auto.testsuites.CreateAnEntry')
+data.setCell(4, 3, 1405);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'deleteAnEntry')
+data.setCell(5, 2, 'com.segun.auto.testsuites.DeleteAnEntry')
+data.setCell(5, 3, 1355);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'loginToHotelManagement')
+data.setCell(6, 2, 'com.segun.auto.testsuites.DeleteAnEntry')
+data.setCell(6, 3, 1261);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'loginToHotelManagement')
+data.setCell(7, 2, 'com.segun.auto.testsuites.CreateMultipleEntries')
+data.setCell(7, 3, 1226);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'loggingOutOfHotelManagement')
+data.setCell(8, 2, 'com.segun.auto.testsuites.DeleteAnEntry')
+data.setCell(8, 3, 603);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'loggingOutOfHotelManagement')
+data.setCell(9, 2, 'com.segun.auto.testsuites.CreateMultipleEntries')
+data.setCell(9, 3, 521);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'loggingOutOfHotelManagement')
+data.setCell(10, 2, 'com.segun.auto.testsuites.CreateAnEntry')
+data.setCell(10, 3, 409);
+window.suiteTableData['Component_Tests']= { tableData: data, tableDiv: 'times-div-Component_Tests'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 44 seconds</span>
+              <div id="times-div-Component_Tests">
+              </div> <!-- times-div-Component_Tests -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Component_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Component Tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Component_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Component_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.segun.auto.testsuites.BeforeAfterSuiteTestConfig</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.segun.auto.testsuites.CreateAnEntry</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest(chrome, http://192.168.99.100:3003)</span>
+                <span class="method-start">30 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">loginToHotelManagement(admin, password)</span>
+                <span class="method-start">6058 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshot([TestResult name=loginToHotelManagement status=SUCCESS method=CreateAnEntry.loginToHotelManagement(j...)</span>
+                <span class="method-start">7463 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">createAnEntry</span>
+                <span class="method-start">7467 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshot([TestResult name=createAnEntry status=SUCCESS method=CreateAnEntry.createAnEntry()[pri:1, instance:c...)</span>
+                <span class="method-start">9326 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">confirmCreatedEntryPresent</span>
+                <span class="method-start">9328 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshot([TestResult name=confirmCreatedEntryPresent status=SUCCESS method=CreateAnEntry.confirmCreatedEntryP...)</span>
+                <span class="method-start">14441 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">loggingOutOfHotelManagement</span>
+                <span class="method-start">14442 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshot([TestResult name=loggingOutOfHotelManagement status=SUCCESS method=CreateAnEntry.loggingOutOfHotelMa...)</span>
+                <span class="method-start">14851 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">14852 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.segun.auto.testsuites.DeleteAnEntry</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest(chrome, http://192.168.99.100:3003)</span>
+                <span class="method-start">15856 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">loginToHotelManagement(admin, password)</span>
+                <span class="method-start">20945 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deleteAnEntry</span>
+                <span class="method-start">22206 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshot([TestResult name=loginToHotelManagement status=SUCCESS method=DeleteAnEntry.loginToHotelManagement(j...)</span>
+                <span class="method-start">22206 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshot([TestResult name=deleteAnEntry status=SUCCESS method=DeleteAnEntry.deleteAnEntry()[pri:1, instance:c...)</span>
+                <span class="method-start">23561 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">confirmDeletedEntryNotPresent</span>
+                <span class="method-start">23562 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshot([TestResult name=confirmDeletedEntryNotPresent status=FAILURE method=DeleteAnEntry.confirmDeletedEnt...)</span>
+                <span class="method-start">28625 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">loggingOutOfHotelManagement</span>
+                <span class="method-start">28981 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">29584 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshot([TestResult name=loggingOutOfHotelManagement status=SUCCESS method=DeleteAnEntry.loggingOutOfHotelMa...)</span>
+                <span class="method-start">29584 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.segun.auto.testsuites.CreateMultipleEntries</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest(chrome, http://192.168.99.100:3003)</span>
+                <span class="method-start">30966 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">loginToHotelManagement(admin, password)</span>
+                <span class="method-start">35858 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshot([TestResult name=loginToHotelManagement status=SUCCESS method=CreateMultipleEntries.loginToHotelMana...)</span>
+                <span class="method-start">37084 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">createMultipleEntry</span>
+                <span class="method-start">37088 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshot([TestResult name=createMultipleEntry status=SUCCESS method=CreateMultipleEntries.createMultipleEntry...)</span>
+                <span class="method-start">62526 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">loggingOutOfHotelManagement</span>
+                <span class="method-start">62527 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">63048 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshot([TestResult name=loggingOutOfHotelManagement status=SUCCESS method=CreateMultipleEntries.loggingOutO...)</span>
+                <span class="method-start">63048 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.segun.auto.testsuites.BeforeAfterSuiteTestConfig</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuite</span>
+                <span class="method-start">63919 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

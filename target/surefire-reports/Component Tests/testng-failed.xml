@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Component Tests]">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="sUsername" value="admin"/>
+  <parameter name="url" value="http://192.168.99.100:3003"/>
+  <parameter name="sPassword" value="password"/>
+  <test name="Login and Delete an Entry(failed)">
+    <classes>
+      <class name="com.segun.auto.testsuites.CreateMultipleEntries">
+        <methods>
+          <include name="takeScreenshot"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.segun.auto.testsuites.CreateMultipleEntries -->
+      <class name="com.segun.auto.testsuites.CreateAnEntry">
+        <methods>
+          <include name="takeScreenshot"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.segun.auto.testsuites.CreateAnEntry -->
+      <class name="com.segun.auto.testsuites.DeleteAnEntry">
+        <methods>
+          <include name="confirmDeletedEntryNotPresent"/>
+          <include name="takeScreenshot"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.segun.auto.testsuites.DeleteAnEntry -->
+      <class name="com.segun.auto.testsuites.BeforeAfterSuiteTestConfig">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.segun.auto.testsuites.BeforeAfterSuiteTestConfig -->
+    </classes>
+  </test> <!-- Login and Delete an Entry(failed) -->
+</suite> <!-- Failed suite [Component Tests] -->
