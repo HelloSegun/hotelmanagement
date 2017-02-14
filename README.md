@@ -6,9 +6,11 @@ Instructions:
 - Also it's a Maven project
 - Navigate to the repository that contain the POM file, the run 'mvn test -Photeltest'
 
-
-
 Note:- “browser” and “url” value in “hotel_management_test.xml” file in “src/main/resources” directory can be edited to 'firefox' and 'https://xxx.xxx.xx.xxx:3003
+
+  <parameter name="browser" value="chrome"/>
+  <parameter name="url" value="http://localhost:3003"/>
+
 
 
 Exploratory Test:
